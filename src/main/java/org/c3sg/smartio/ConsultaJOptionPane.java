@@ -24,7 +24,6 @@ public class ConsultaJOptionPane implements Consulta {
 	StringBuilder strBuilder = new StringBuilder();
 	strBuilder.append(Constantes.MSG_INGRESE);
 	strBuilder.append(Constantes.TIPO_DOUBLE);
-//	String resultStr = JOptionPane.showInputDialog(componet, strBuilder);
 
 	Double valor = null;
 	if (validar) {
@@ -70,7 +69,6 @@ public class ConsultaJOptionPane implements Consulta {
 	StringBuilder strBuilder = new StringBuilder();
 	strBuilder.append(Constantes.MSG_INGRESE);
 	strBuilder.append(Constantes.TIPO_FLOAT);
-//	String resultStr = JOptionPane.showInputDialog(componet, strBuilder);
 
 	Float valor = null;
 	if (validar) {
@@ -116,7 +114,6 @@ public class ConsultaJOptionPane implements Consulta {
 	StringBuilder strBuilder = new StringBuilder();
 	strBuilder.append(Constantes.MSG_INGRESE);
 	strBuilder.append(Constantes.TIPO_INT);
-//	String resultStr = JOptionPane.showInputDialog(componet, strBuilder);
 
 	Integer valor = null;
 	if (validar) {
@@ -166,7 +163,6 @@ public class ConsultaJOptionPane implements Consulta {
 	StringBuilder strBuilder = new StringBuilder();
 	strBuilder.append(Constantes.MSG_INGRESE);
 	strBuilder.append(Constantes.TIPO_LONG);
-//	String resultStr = JOptionPane.showInputDialog(componet, strBuilder);
 
 	Long valor = null;
 	if (validar) {
