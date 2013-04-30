@@ -52,7 +52,7 @@ public class ConsultaConsola implements Consulta {
 	do {
 	    valor = consola.capturaDouble();
 	    if (valor != null) {
-		if (valor.doubleValue() > min || valor.doubleValue() < max) {
+		if (valor.doubleValue() < min || valor.doubleValue() > max) {
 		    consola.escribeError(Constantes.MSG_ERR_MIN_MAX, false);
 		    consola.escribeError(Constantes.MSG_ERROR, true);
 		    valor = null;
@@ -99,7 +99,7 @@ public class ConsultaConsola implements Consulta {
 	do {
 	    valor = consola.capturaFloat();
 	    if (valor != null) {
-		if (valor.floatValue() > min || valor.floatValue() < max) {
+		if (valor.floatValue() < min || valor.floatValue() > max) {
 		    consola.escribeError(Constantes.MSG_ERR_MIN_MAX, false);
 		    consola.escribeError(Constantes.MSG_ERROR, true);
 		    valor = null;
@@ -192,7 +192,7 @@ public class ConsultaConsola implements Consulta {
 	do {
 	    valor = consola.capturaLong();
 	    if (valor != null) {
-		if (valor.longValue() > min || valor.longValue() < max) {
+		if (valor.longValue() < min || valor.longValue() > max) {
 		    consola.escribeError(Constantes.MSG_ERR_MIN_MAX, false);
 		    consola.escribeError(Constantes.MSG_ERROR, true);
 		    valor = null;
